@@ -77,6 +77,7 @@ def evaluatePostfix(exp, comb):
 def CheckEntailment():
     kb = input("Enter rule: ")
     query = input("Enter the query: ")
+      print("\n*****************Truth Table Reference********************")
     combinations = [
         [True, True, True],
         [True, True, False],
