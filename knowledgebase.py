@@ -96,7 +96,7 @@ def CheckEntailment():
         print(combination, ":kb=", eval_kb, ":q=", eval_q)
         if eval_kb == True:
             if eval_q == False:
-                print("Doesn't entail!! \U0001F92A")
+                print("Doesn't entail!!")
                 return False
     print("the Knowledge Base Entails Query")
 
